@@ -13,7 +13,7 @@ class SocieteController extends Controller
      */
     public function index()
     {
-        return view('auth/entrepriseForm');
+        return view('home');
     }
 
     /**

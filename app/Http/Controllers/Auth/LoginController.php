@@ -47,7 +47,7 @@ class LoginController extends Controller
             $this->redirectTo = '/admin';
             return $this->redirectTo;
                 break;
-            case 'ociete':
+            case 'Societe':
                 $this->redirectTo = '/societe';
                 return $this->redirectTo;
                 break;
