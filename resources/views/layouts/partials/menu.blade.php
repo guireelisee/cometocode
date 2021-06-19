@@ -2,10 +2,14 @@
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
 
-        <div class="logo">
-            <h1><a href="index.html"><span>OuagaSania</span></a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            {{-- <a href="index.html"><img src="assets/img/logo/logo.png" alt="" class="img-fluid"></a> --}}
+        <div class="row logo">
+            <div class="col-2">
+                <a href="index.html"><img src="assets/img/logo/logo_modele.png" alt="" class="img-fluid" width=100%></a>
+            </div>
+            <div class="col-10">
+                <h1><a href="index.html"><span style="margin-left: -5%">OuagaSania</span></a></h1>
+
+            </div>
         </div>
 
         <nav id="navbar" class="navbar">
