@@ -70,14 +70,14 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-3">
-                                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                                             <div class="icon"><i class="bx bx-check-shield"></i></div>
                                             <div style="visibility: hidden">.</div>
                                             <h4 class="title"><a href="">Fiable</a></h4>
                                         </div>
                                     </div>
                                     <div class="col-3">
-                                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+                                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                                             <div class="icon"><i class="bx bx-pointer"></i></div>
                                             <div style="visibility: hidden">.</div>
 
@@ -85,14 +85,14 @@
                                         </div>
                                     </div>
                                     <div class="col-3">
-                                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                                             <div class="icon"><i class="bx bx-trip"></i></div>
                                             <div style="visibility: hidden">.</div>
                                             <h4 class="title"><a href="">Rapide</a></h4>
                                         </div>
                                     </div>
                                     <div class="col-3">
-                                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                                        <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                                             <div class="icon"><i class="bx bx-stats"></i></div>
                                             <div style="visibility: hidden">.</div>
                                             <h4 class="title"><a href="">Statistiques</a></h4>
@@ -161,19 +161,19 @@
                                             <div class="address">
                                                 <i class="bi bi-geo-alt"></i>
                                                 <h4>Localisation:</h4>
-                                                <p>A108 Adam Street, New York, NY 535022</p>
+                                                <p>Somgandé, Ouagadougou - BURKINA FASO</p>
                                             </div>
 
                                             <div class="email">
                                                 <i class="bi bi-envelope"></i>
                                                 <h4>Email:</h4>
-                                                <p>info@example.com</p>
+                                                <p>info@ouagasania.bf</p>
                                             </div>
 
                                             <div class="phone">
                                                 <i class="bi bi-phone"></i>
                                                 <h4>Téléphone:</h4>
-                                                <p>(+226) ## ## ## ##</p>
+                                                <p>(+226) 57 66 28 14</p>
                                             </div>
 
                                         </div>
@@ -182,7 +182,7 @@
 
                                     <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
 
-                                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                        <form action="#" method="post" role="form" class="php-email-form">
                                             <div class="row">
                                                 <div class="col-md-6 form-group">
                                                     <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" required>

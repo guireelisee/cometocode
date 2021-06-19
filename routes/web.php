@@ -21,5 +21,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/societe', [App\Http\Controllers\HomeController::class, 'index'])->name('societe')->middleware('societe');
+Route::get('/societe', [App\Http\Controllers\SocieteController::class, 'index'])->name('societe');
+Route::post('/societe_submit', [App\Http\Controllers\SocieteController::class, 'store'])->name('societe.store');
 Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('admin')->middleware('admin');
