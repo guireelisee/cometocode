@@ -391,7 +391,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    background: url("../img/hero-bg.jpg");
+    background: url("../img/monument.png") no-repeat;
+    background-size: 54%;
     position: relative;
     padding: 120px 0 0 0;
 }

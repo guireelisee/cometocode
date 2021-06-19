@@ -10,7 +10,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/logo/logo.ico" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -45,7 +45,7 @@
                 <div class="logo">
                     <h1><a href="index.html"><span>OuagaSania</span></a></h1>
                     <!-- Uncomment below if you prefer to use an image logo -->
-                    <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                    {{-- <a href="index.html"><img src="assets/img/logo/logo.png" alt="" class="img-fluid"></a> --}}
                 </div>
 
                 <nav id="navbar" class="navbar">
@@ -60,12 +60,7 @@
                             </ul>
                         </li>
                         <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                        <li class="dropdown"><a href="#"><span>Connexion</span> <i class="bi bi-chevron-down"></i></a>
-                            <ul>
-                                <li><a href="#">Mairie</a></li>
-                                <li><a href="#">Entreprises</a></li>
-                            </ul>
-                        </li>
+                        <li><a class="nav-link scrollto" href="#about">Connexion</a></li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav><!-- .navbar -->
@@ -120,26 +115,25 @@
                                         <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
                                             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
                                         </div>
-
                                         <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
                                             <h3>A propos</h3>
                                             <p>OuagaSania est une plateforme permettant de regrouper les 60 Centres de Collecte de Tri (CCT) et les Centres de Traitement et de Valorisation de Déchets (CTVD) de la ville de Ouagadougou et d'en faire un suivi scrupuleux du niveau de remplissage de ceux-ci afin d'améliorer leur efficacité. </p>
-                                            <div class="row">
+                                            <div class="row align-items-center">
                                                 <div class="col-4">
                                                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                                                        <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                                                        <h4 class="title"><a href="">Rapide</a></h4>
+                                                        <div class="icon"><i class="bx bx-trip"></i></div>
+                                                        <h4 class="title align-middle"><a href="">Rapide</a></h4>
                                                     </div>
                                                 </div>
                                                 <div class="col-4">
                                                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                                                        <div class="icon"><i class="bx bx-gift"></i></div>
+                                                        <div class="icon"><i class="bx bx-check-shield"></i></div>
                                                         <h4 class="title"><a href="">Efficace</a></h4>
                                                     </div>
                                                 </div>
                                                 <div class="col-4">
                                                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-                                                        <div class="icon"><i class="bx bx-atom"></i></div>
+                                                        <div class="icon"><i class="bx bx-pointer"></i></div>
                                                         <h4 class="title"><a href="">Simple</a></h4>
                                                     </div>
                                                 </div>
