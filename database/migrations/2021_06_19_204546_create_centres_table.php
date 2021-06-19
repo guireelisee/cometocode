@@ -14,10 +14,15 @@ class CreateCentresTable extends Migration
     public function up()
     {
         Schema::create('centres', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
-            $table->string('numero');
-            $table->string('localisation');
+            $table->increments('id', true)->unsigned();
+            $table->string('nom');
+            $table->string('description')->nullable();
+            $table->unsignedInteger('kartier_id');
+            $table->float('latitude');
+            $table->float('longitude');
             $table->timestamps();
+
+            $table->foreign('kartier_id')->references('id')->on('kartiers')->onDelete('cascade');
         });
     }
 

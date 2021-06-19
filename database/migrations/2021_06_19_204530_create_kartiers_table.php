@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCommunesTable extends Migration
+class CreateKartiersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,13 @@ class CreateCommunesTable extends Migration
      */
     public function up()
     {
-        Schema::create('communes', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
+        Schema::create('kartiers', function (Blueprint $table) {
+            $table->increments('id', true)->unsigned();
             $table->string('nom');
+            $table->unsignedInteger('arrondissement_id');
             $table->timestamps();
+
+            $table->foreign('arrondissement_id')->references('id')->on('arrondissements')->onDelete('cascade');
         });
     }
 
@@ -27,6 +30,6 @@ class CreateCommunesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('communes');
+        Schema::dropIfExists('kartiers');
     }
 }
