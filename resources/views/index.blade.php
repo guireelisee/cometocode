@@ -154,81 +154,27 @@
                                 <div class="container">
 
                                     <div class="section-title" data-aos="fade-up">
-                                        <h2>Features</h2>
-                                        <p>Check The Features</p>
+                                        <h2>Autres</h2>
+                                        <p>Services</p>
                                     </div>
 
                                     <div class="row" data-aos="fade-left">
-                                        <div class="col-lg-3 col-md-4">
+                                        <div class="col-lg-4 col-md-4">
                                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
                                                 <i class="ri-store-line" style="color: #ffbb2c;"></i>
-                                                <h3><a href="">Lorem Ipsum</a></h3>
+                                                <h3><a href="">Alerte</a></h3>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                                        <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
                                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                                                 <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-                                                <h3><a href="">Dolor Sitema</a></h3>
+                                                <h3><a href="">Sensiblisation</a></h3>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                                        <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
                                             <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
                                                 <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-                                                <h3><a href="">Sed perspiciatis</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-                                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                                                <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                                                <h3><a href="">Magni Dolores</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 mt-4">
-                                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
-                                                <i class="ri-database-2-line" style="color: #47aeff;"></i>
-                                                <h3><a href="">Nemo Enim</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 mt-4">
-                                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-                                                <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-                                                <h3><a href="">Eiusmod Tempor</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 mt-4">
-                                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
-                                                <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-                                                <h3><a href="">Midela Teren</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 mt-4">
-                                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-                                                <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-                                                <h3><a href="">Pira Neve</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 mt-4">
-                                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
-                                                <i class="ri-anchor-line" style="color: #b2904f;"></i>
-                                                <h3><a href="">Dirada Pack</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 mt-4">
-                                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
-                                                <i class="ri-disc-line" style="color: #b20969;"></i>
-                                                <h3><a href="">Moton Ideal</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 mt-4">
-                                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
-                                                <i class="ri-base-station-line" style="color: #ff5828;"></i>
-                                                <h3><a href="">Verdo Park</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 mt-4">
-                                            <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
-                                                <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-                                                <h3><a href="">Flavor Nivelanda</a></h3>
+                                                <h3><a href="">Forum</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -304,72 +250,6 @@
                                             </p>
                                         </div>
                                     </div>
-
-                                    <div class="row content">
-                                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-                                            <img src="assets/img/details-2.png" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-                                            <h3>Corporis temporibus maiores provident</h3>
-                                            <p class="fst-italic">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                magna aliqua.
-                                            </p>
-                                            <p>
-                                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                                culpa qui officia deserunt mollit anim id est laborum
-                                            </p>
-                                            <p>
-                                                Inventore id enim dolor dicta qui et magni molestiae. Mollitia optio officia illum ut cupiditate eos autem. Soluta dolorum repellendus repellat amet autem rerum illum in. Quibusdam occaecati est nisi esse. Saepe aut dignissimos distinctio id enim.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="row content">
-                                        <div class="col-md-4" data-aos="fade-right">
-                                            <img src="assets/img/details-3.png" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="col-md-8 pt-5" data-aos="fade-up">
-                                            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-                                            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
-                                            <ul>
-                                                <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                                <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                                <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
-                                            </ul>
-                                            <p>
-                                                Qui consequatur temporibus. Enim et corporis sit sunt harum praesentium suscipit ut voluptatem. Et nihil magni debitis consequatur est.
-                                            </p>
-                                            <p>
-                                                Suscipit enim et. Ut optio esse quidem quam reiciendis esse odit excepturi. Vel dolores rerum soluta explicabo vel fugiat eum non.
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="row content">
-                                        <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-                                            <img src="assets/img/details-4.png" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-                                            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-                                            <p class="fst-italic">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                                magna aliqua.
-                                            </p>
-                                            <p>
-                                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                                culpa qui officia deserunt mollit anim id est laborum
-                                            </p>
-                                            <ul>
-                                                <li><i class="bi bi-check"></i> Et praesentium laboriosam architecto nam .</li>
-                                                <li><i class="bi bi-check"></i> Eius et voluptate. Enim earum tempore aliquid. Nobis et sunt consequatur. Aut repellat in numquam velit quo dignissimos et.</li>
-                                                <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
                                 </div>
                             </section><!-- End Details Section -->
 
@@ -472,230 +352,12 @@
                                                     </p>
                                                 </div>
                                             </div><!-- End testimonial item -->
-
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-item">
-                                                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                                                    <h3>Sara Wilsson</h3>
-                                                    <h4>Designer</h4>
-                                                    <p>
-                                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                                    </p>
-                                                </div>
-                                            </div><!-- End testimonial item -->
-
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-item">
-                                                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                                                    <h3>Jena Karlis</h3>
-                                                    <h4>Store Owner</h4>
-                                                    <p>
-                                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                                    </p>
-                                                </div>
-                                            </div><!-- End testimonial item -->
-
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-item">
-                                                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                                                    <h3>Matt Brandon</h3>
-                                                    <h4>Freelancer</h4>
-                                                    <p>
-                                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                                    </p>
-                                                </div>
-                                            </div><!-- End testimonial item -->
-
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-item">
-                                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                                                    <h3>John Larson</h3>
-                                                    <h4>Entrepreneur</h4>
-                                                    <p>
-                                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                                    </p>
-                                                </div>
-                                            </div><!-- End testimonial item -->
-
                                         </div>
-                                        <div class="swiper-pagination"></div>
+                                        {{-- <div class="swiper-pagination"></div> --}}
                                     </div>
 
                                 </div>
                             </section><!-- End Testimonials Section -->
-
-                            <!-- ======= Team Section ======= -->
-                            <section id="team" class="team">
-                                <div class="container">
-
-                                    <div class="section-title" data-aos="fade-up">
-                                        <h2>Team</h2>
-                                        <p>Our Great Team</p>
-                                    </div>
-
-                                    <div class="row" data-aos="fade-left">
-
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                                                <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-                                                <div class="member-info">
-                                                    <h4>Walter White</h4>
-                                                    <span>Chief Executive Officer</span>
-                                                    <div class="social">
-                                                        <a href=""><i class="bi bi-twitter"></i></a>
-                                                        <a href=""><i class="bi bi-facebook"></i></a>
-                                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                                        <a href=""><i class="bi bi-linkedin"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-                                            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                                                <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-                                                <div class="member-info">
-                                                    <h4>Sarah Jhonson</h4>
-                                                    <span>Product Manager</span>
-                                                    <div class="social">
-                                                        <a href=""><i class="bi bi-twitter"></i></a>
-                                                        <a href=""><i class="bi bi-facebook"></i></a>
-                                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                                        <a href=""><i class="bi bi-linkedin"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                                            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                                                <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-                                                <div class="member-info">
-                                                    <h4>William Anderson</h4>
-                                                    <span>CTO</span>
-                                                    <div class="social">
-                                                        <a href=""><i class="bi bi-twitter"></i></a>
-                                                        <a href=""><i class="bi bi-facebook"></i></a>
-                                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                                        <a href=""><i class="bi bi-linkedin"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                                            <div class="member" data-aos="zoom-in" data-aos-delay="400">
-                                                <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
-                                                <div class="member-info">
-                                                    <h4>Amanda Jepson</h4>
-                                                    <span>Accountant</span>
-                                                    <div class="social">
-                                                        <a href=""><i class="bi bi-twitter"></i></a>
-                                                        <a href=""><i class="bi bi-facebook"></i></a>
-                                                        <a href=""><i class="bi bi-instagram"></i></a>
-                                                        <a href=""><i class="bi bi-linkedin"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </section><!-- End Team Section -->
-
-                            <!-- ======= Pricing Section ======= -->
-                            <section id="pricing" class="pricing">
-                                <div class="container">
-
-                                    <div class="section-title" data-aos="fade-up">
-                                        <h2>Pricing</h2>
-                                        <p>Check our Pricing</p>
-                                    </div>
-
-                                    <div class="row" data-aos="fade-left">
-
-                                        <div class="col-lg-3 col-md-6">
-                                            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                                                <h3>Free</h3>
-                                                <h4><sup>$</sup>0<span> / month</span></h4>
-                                                <ul>
-                                                    <li>Aida dere</li>
-                                                    <li>Nec feugiat nisl</li>
-                                                    <li>Nulla at volutpat dola</li>
-                                                    <li class="na">Pharetra massa</li>
-                                                    <li class="na">Massa ultricies mi</li>
-                                                </ul>
-                                                <div class="btn-wrap">
-                                                    <a href="#" class="btn-buy">Buy Now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-                                            <div class="box featured" data-aos="zoom-in" data-aos-delay="200">
-                                                <h3>Business</h3>
-                                                <h4><sup>$</sup>19<span> / month</span></h4>
-                                                <ul>
-                                                    <li>Aida dere</li>
-                                                    <li>Nec feugiat nisl</li>
-                                                    <li>Nulla at volutpat dola</li>
-                                                    <li>Pharetra massa</li>
-                                                    <li class="na">Massa ultricies mi</li>
-                                                </ul>
-                                                <div class="btn-wrap">
-                                                    <a href="#" class="btn-buy">Buy Now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-                                            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-                                                <h3>Developer</h3>
-                                                <h4><sup>$</sup>29<span> / month</span></h4>
-                                                <ul>
-                                                    <li>Aida dere</li>
-                                                    <li>Nec feugiat nisl</li>
-                                                    <li>Nulla at volutpat dola</li>
-                                                    <li>Pharetra massa</li>
-                                                    <li>Massa ultricies mi</li>
-                                                </ul>
-                                                <div class="btn-wrap">
-                                                    <a href="#" class="btn-buy">Buy Now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-                                            <div class="box" data-aos="zoom-in" data-aos-delay="400">
-                                                <span class="advanced">Advanced</span>
-                                                <h3>Ultimate</h3>
-                                                <h4><sup>$</sup>49<span> / month</span></h4>
-                                                <ul>
-                                                    <li>Aida dere</li>
-                                                    <li>Nec feugiat nisl</li>
-                                                    <li>Nulla at volutpat dola</li>
-                                                    <li>Pharetra massa</li>
-                                                    <li>Massa ultricies mi</li>
-                                                </ul>
-                                                <div class="btn-wrap">
-                                                    <a href="#" class="btn-buy">Buy Now</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </section><!-- End Pricing Section -->
 
                             <!-- ======= F.A.Q Section ======= -->
                             <section id="faq" class="faq section-bg">
