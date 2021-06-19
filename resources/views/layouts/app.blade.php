@@ -6,7 +6,6 @@
 
      <title>{{ config('app.namee', 'OuagaSania | Plateforme de gestion de CCT') }}</title>
 
-
      <!-- Favicons -->
      <link href="{{ asset('assets/img/logo/logo.ico" rel="icon') }}">
      <link href="{{ asset('assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
