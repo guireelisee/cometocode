@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Societe;
 use Illuminate\Http\Request;
 
 class SocieteController extends Controller
@@ -34,7 +35,13 @@ class SocieteController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd($request);
+        Societe::create([
+            'id'=>$request->id,
+            'email'=>$request->email,
+            'phone'=>$request->phone
+        ]);
+        return redirect()->route('backend.admin.index')->with('success','Entreprise ajoutée avec succès.');
     }
 
     /**
