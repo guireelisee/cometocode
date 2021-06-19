@@ -11,8 +11,8 @@
                         <p>
                             Somgandé, Ouagadougou <br>
                             BURKINA FASO<br><br>
-                            <strong>Phone:</strong> (+226) ## ## ## ##<br>
-                            <strong>Email:</strong> info@example.com<br>
+                            <strong>Phone:</strong> (+226) 57 66 28 14<br>
+                            <strong>Email:</strong> info@ouagasania.bf<br>
                         </p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -47,8 +47,9 @@
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4>Newsletter</h4>
                     <p>Abonnez-vous à la newsletter</p>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="S'abonnez">
+                    <form action="#" method="post">
+                        <input type="email" name="email" required>
+                        <input type="submit" value="S'abonnez">
                     </form>
 
                 </div>
