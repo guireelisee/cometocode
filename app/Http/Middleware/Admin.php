@@ -21,11 +21,11 @@ class Admin
             return redirect()->route('login');
         }
 
-        if (Auth::user()->role == 'societe') {
+        if (Auth::user()->role == 'Societe') {
             return $next($request);
         }
 
-        if (Auth::user()->role == 'admin') {
+        if (Auth::user()->role == 'Admin') {
             return redirect()->route('admin');
         }
         // return $next($request);
