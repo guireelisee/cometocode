@@ -3,29 +3,21 @@
 ***********************************-->
 <div class="deznav">
     <div class="deznav-scroll">
-        <a class="add-project-sidebar btn btn-primary" href="javascript:void(0)"  data-toggle="modal" data-target="#addProjectSidebar" >+ Nouveau centre</a>
         <ul class="metismenu" id="menu">
-            <li><a class="" href="" aria-expanded="false">
+            <li><a class="ai-icon" href="{{ route('admin') }}" aria-expanded="false">
+                    <i class="flaticon-024-dashboard"></i>
                     <span class="nav-text">Tableau de bord</span>
                 </a>
             </li>
-            <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-                <i class="flaticon-024-dashboard"></i>
-                    <span class="nav-text">Gestion des centres</span>
+            <li><a class="ai-icon" href="{{ route('gest-centre.index') }}" aria-expanded="false">
+                    <i class="flaticon-024-dashboard"></i>
+                    <span class="nav-text">Centres de collecte</span>
                 </a>
-                <ul aria-expanded="false">
-                    <li><a href="app-profile.html">Nouveau centre</a></li>
-                    <li><a href="post-details.html">Post Details</a></li>
-                </ul>
             </li>
-            <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-                <i class="flaticon-024-dashboard"></i>
-                    <span class="nav-text">Gestion des entreprises</span>
+            <li><a class="ai-icon" href="{{ route('gest-societe.index') }}" aria-expanded="false">
+                    <i class="flaticon-024-dashboard"></i>
+                    <span class="nav-text">Entreprises</span>
                 </a>
-                <ul aria-expanded="false">
-                    <li><a href="{{ route('gest-societe.index') }}">Nouvelle entreprises</a></li>
-                    <li><a href="post-details.html">Liste des </a></li>
-                </ul>
             </li>
             <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                     <i class="flaticon-041-graph"></i>

@@ -22,9 +22,9 @@
                         <label class="text-black font-w500">Secteur</label>
                         <select class="mr-sm-2 default-select" id="inlineFormCustomSelect" name="kartier_id">
                             <option selected>Quel secteur/kartier?</option>
-                            @foreach ($secteurs as $item)
+                            {{-- @foreach ($centres ?? '' as $item)
                                 <option value="{{ $item->id }}">{{ $item->nom }}</option>
-                            @endforeach
+                            @endforeach --}}
                         </select>
                     </div>
                     <div class="form-group">
