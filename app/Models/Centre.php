@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Centre extends Model
 {
     use HasFactory;
+    protected $guarted = ['id'];
 }

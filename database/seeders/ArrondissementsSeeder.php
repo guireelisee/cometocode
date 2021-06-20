@@ -24,6 +24,9 @@ class ArrondissementsSeeder extends Seeder
             '7',
             '8',
             '9',
+            '10',
+            '11',
+            '12',
         ];
 
         foreach ($arrondiData as $key => $val) {
