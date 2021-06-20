@@ -545,7 +545,8 @@
     <script src="{{asset('backend/assets/vendor/global/global.min.js')}}"></script>
 	<script src="{{asset('backend/assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js')}}"></script>
     <script src="{{asset('backend/assets/js/plugins-init/datatables.init.js')}}"></script>
-    {{-- <script src="{{asset('backend/assets/js/custom.min.js')}}"></script>
+    {{-- <script src="{{asset('backend/assets/js/custom.min.js')}}µ
+    "></script>
 	<script src="{{asset('backend/assets/js/deznav-init.js')}}"></script>
 	<script src="{{asset('backend/assets/js/demo.js')}}"></script>
     <script src="{{asset('backend/assets/js/styleSwitcher.js')}}"></script> --}}
