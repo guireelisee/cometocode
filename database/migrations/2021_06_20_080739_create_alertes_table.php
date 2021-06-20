@@ -16,6 +16,7 @@ class CreateAlertesTable extends Migration
         Schema::create('alertes', function (Blueprint $table) {
             $table->id();
             $table->unsignedInteger('centre_id');
+            $table->boolean('etat');
             $table->foreign('centre_id')->references('id')->on('centres')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });

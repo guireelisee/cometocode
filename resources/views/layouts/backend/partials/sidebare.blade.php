@@ -9,7 +9,7 @@
                     <span class="nav-text">Tableau de bord</span>
                 </a>
             </li>
-            <li><a class="ai-icon" href="{{ route('admin') }}" aria-expanded="false">
+            <li><a class="ai-icon" href="{{ route('gest-alerte.index') }}" aria-expanded="false">
                     <i class="flaticon-024-dashboard"></i>
                     <span class="nav-text">Alertes</span>
                 </a>

@@ -15,8 +15,6 @@ class CentreController extends Controller
     */
     public function index()
     {
-        // $centre = Centre::find(1);
-        // dd($centre->kartier->nom);
         $centres = Centre::all();
         return view('backend.admin.centres.index', compact('centres'));
     }
