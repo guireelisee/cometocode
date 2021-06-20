@@ -29,3 +29,4 @@ Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->na
 Route::resource('gest-societe', SocieteController::class)->middleware('admin');
 Route::resource('gest-centre', CentreController::class)->middleware('admin');
 Route::resource('gest-alerte', AlerteController::class)->middleware('admin');
+Route::get('gest-alerte_update', [AlerteController::class, 'update'])->name('updateEtat')->middleware('admin');

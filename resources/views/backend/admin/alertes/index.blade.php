@@ -1,3 +1,9 @@
+@php
+    use App\Http\Controllers\AlerteController;
+    use App\Models\Centre;
+    use App\Models\Kartier;
+@endphp
+
 @extends('layouts.app2')
 
 @section('styles')
@@ -20,7 +26,6 @@
             <div class="card">
                 <div class="card-header">
                     <h4 class="card-title">alertes disponibles</h4>
-                    <a class="text-right" href="{{ route('gest-alerte.create') }}"><button class="btn btn-primary" type="button">Ajouter</button></a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -31,28 +36,32 @@
                                     <th>Nom du centre</th>
                                     <th>Secteur du centre</th>
                                     <th>Localisation du centre</th>
+                                    <th>Date d'alerte</th>
                                     <th>Etat</th>
                                     <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                {{-- @foreach ($alertes as $alerte) --}}
+                                @foreach ($alertes as $alerte)
                                     <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>
-                                            En cours
-                                        </td>
-                                        <td>
+                                        <td>{{$alerte->id}}</td>
+                                        <td>{{Centre::find(AlerteController::getAlerteByCentre($alerte->centre_id)->centre_id)->nom}}</td>
+                                        <td>{{Kartier::find(Centre::find(AlerteController::getAlerteByCentre($alerte->centre_id)->centre_id)->kartier_id)->nom}}</td>
+                                        <td>{{Centre::find(AlerteController::getAlerteByCentre($alerte->centre_id)->centre_id)->latitude . " ". Centre::find(AlerteController::getAlerteByCentre($alerte->centre_id)->centre_id)->longitude}}</td>
+                                        <td>{{$alerte->created_at}}</td>
+                                        @if ($alerte->etat === 0)
+                                        {{-- Validé --}}
+                                            <td ><button type="button" class="mt-2 btn btn-primary btn-sm">Vider</button></td>
+                                        @else
+                                            <td ><button type="button" class="mt-2 btn btn-warning btn-sm">A vider</button></td>
+                                            <td>
                                             <div class="d-flex">
-                                                <a href="#" class="btn btn-primary shadow btn-xs sharp mr-1"><i class="fa fa-pencil"></i></a>
-                                                <a href="#" class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                                <a href="{{ route('updateEtat', ['id'=>$alerte->id]) }}" class="mt-2 btn btn-primary btn-sm"><i class="fa fa-check"></i> Valider</a>
                                             </div>
                                         </td>
+                                        @endif
                                     </tr>
-                                 {{-- @endforeach --}}
+                                 @endforeach
                             </tbody>
                         </table>
                     </div>

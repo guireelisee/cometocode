@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Alerte;
+use App\Models\Centre;
 use Illuminate\Http\Request;
 
 class AlerteController extends Controller
@@ -68,9 +69,11 @@ class AlerteController extends Controller
      * @param  \App\Models\Alerte  $alerte
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Alerte $alerte)
+    public function update(Request $request)
     {
-        //
+        $id = $_GET['id'];
+        Alerte::where('id',$id)->update(['etat'=> 0]);
+        return redirect()->route('gest-alerte.index');
     }
 
     /**
@@ -83,4 +86,16 @@ class AlerteController extends Controller
     {
         //
     }
+
+    public static function getAlerteByCentre($id)
+    {
+        return Alerte::where('centre_id',$id)->first();
+    }
+
+    public static function getSocieteByCentre($id)
+    {
+        return Societe::where('centre_id',$id)->first();
+    }
+
+
 }

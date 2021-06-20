@@ -4,7 +4,7 @@
      <!-- meta links -->
      @include('layouts.backend.partials.meta')
 
-     <title>{{ config('app.namee', 'OuagaSania|Admin') }}</title>
+     <title>{{ config('app.namee', 'OuagaSania - Administrateur') }}</title>
 
      <!-- Favicons -->
     <link href="{{ asset('assets/img/logo/logo.ico') }}" rel="icon">
