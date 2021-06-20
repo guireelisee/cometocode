@@ -19,6 +19,15 @@
                 </ul>
             </li>
             <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                <i class="flaticon-024-dashboard"></i>
+                    <span class="nav-text">Gestion des entreprises</span>
+                </a>
+                <ul aria-expanded="false">
+                    <li><a href="{{ route('gest-societe.index') }}">Nouvelle entreprises</a></li>
+                    <li><a href="post-details.html">Liste des </a></li>
+                </ul>
+            </li>
+            <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                     <i class="flaticon-041-graph"></i>
                     <span class="nav-text">Statistiques</span>
                 </a>

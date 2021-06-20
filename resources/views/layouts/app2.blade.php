@@ -15,6 +15,8 @@
 
      <!-- Vendor CSS Files -->
      @include('layouts.backend.partials.css')
+      {{-- fichiers css  --}}
+      @stack('styles')
 </head>
 <body>
     @include('layouts.backend.partials.preloader')
@@ -27,9 +29,10 @@
         @include('layouts.backend.partials.chatbox')
         @include('layouts.backend.partials.nav_dash')
         @include('layouts.backend.partials.sidebare')
-        <main>
+        <main class="content-body">
             <!-- Contenu de la page -->
             @yield('content')
+            @include('layouts.backend.partials.add_centre_modal')
         </main>
         @include('layouts.backend.partials.footer')
     </div>
@@ -39,6 +42,8 @@
 
     <!-- Js files -->
     @include('layouts.backend.partials.js_files')
+    {{-- scripts --}}
+    @stack('scripts')
 </body>
 
 </html>
