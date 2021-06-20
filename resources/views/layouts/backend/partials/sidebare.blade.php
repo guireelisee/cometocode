@@ -9,6 +9,11 @@
                     <span class="nav-text">Tableau de bord</span>
                 </a>
             </li>
+            <li><a class="ai-icon" href="{{ route('admin') }}" aria-expanded="false">
+                    <i class="flaticon-024-dashboard"></i>
+                    <span class="nav-text">Alertes</span>
+                </a>
+            </li>
             <li><a class="ai-icon" href="{{ route('gest-centre.index') }}" aria-expanded="false">
                     <i class="flaticon-024-dashboard"></i>
                     <span class="nav-text">Centres de collecte</span>

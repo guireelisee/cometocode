@@ -27,3 +27,4 @@ Route::get('/societe', [App\Http\Controllers\SocieteController::class, 'index'])
 Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin')->middleware('admin');
 Route::resource('gest-societe', SocieteController::class)->middleware('admin');
 Route::resource('gest-centre', CentreController::class)->middleware('admin');
+Route::resource('alerte', AlerteController::class);
