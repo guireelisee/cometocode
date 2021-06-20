@@ -18,10 +18,7 @@ class CreateSocietesTable extends Migration
             $table->increments('id', true)->unsigned();
             $table->string('nom');
             $table->string('description');
-            $table->unsignedInteger('centre_id');
             $table->timestamps();
-
-            $table->foreign('centre_id')->references('id')->on('centres')->onDelete('cascade');
         });
     }
 

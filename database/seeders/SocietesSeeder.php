@@ -18,27 +18,22 @@ class SocietesSeeder extends Seeder
             [
                 'nom'=>'Entreprise 1',
                 'description'=>'Description de l\'entreprise 1',
-                'centre_id'=>'5',
             ],
             [
                 'nom'=>'Entreprise 2',
                 'description'=>'Description de l\'entreprise 2',
-                'centre_id'=>'4',
             ],
             [
                 'nom'=>'Entreprise 3',
                 'description'=>'Description de l\'entreprise 3',
-                'centre_id'=>'3',
             ],
             [
                 'nom'=>'Entreprise 4',
                 'description'=>'Description de l\'entreprise 4',
-                'centre_id'=>'2',
             ],
             [
                 'nom'=>'Entreprise 5',
                 'description'=>'Description de l\'entreprise 5',
-                'centre_id'=>'1',
             ],
         ];
 

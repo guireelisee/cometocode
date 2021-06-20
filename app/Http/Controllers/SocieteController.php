@@ -6,6 +6,7 @@ use App\Http\Middleware\Societe;
 use App\Models\Centre;
 use App\Models\Kartier;
 use App\Models\Societe as ModelsSociete;
+use App\Models\SocieteCentre;
 use Illuminate\Http\Request;
 
 class SocieteController extends Controller
@@ -18,7 +19,8 @@ class SocieteController extends Controller
     public function index()
     {
         $secteurs = Kartier::all();
-        return view('backend.admin.entreprises.index', compact('secteurs'));
+        $entreprises = ModelsSociete::all();
+        return view('backend.admin.entreprises.index', compact('secteurs','entreprises'));
     }
 
     /**
@@ -30,7 +32,7 @@ class SocieteController extends Controller
     {
         $centres = Centre::all();
         $secteurs = Kartier::all();
-        // dd($centres);
+        // dd($entreprises);
         return view('backend.admin.entreprises.create',compact('centres','secteurs'));
     }
 
@@ -65,7 +67,11 @@ class SocieteController extends Controller
      */
     public function edit($id)
     {
-        //
+        $entreprise = ModelsSociete::find($id);
+        // dd();
+        $centres = Centre::all();
+        $secteurs = Kartier::all();
+        return view('backend.admin.entreprises.edit',compact('entreprise', 'centres', 'secteurs'));
     }
 
     /**
@@ -77,7 +83,16 @@ class SocieteController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $entreprise = ModelsSociete::find($id);
+
+        $centres = $request->centre_id;
+        foreach ($centres as $value) {
+            SocieteCentre::create([
+                'centre_id' => $value,
+                'societe_id' => $id,
+            ]);
+        }
+        return redirect()->route('gest-societe.index')->with('Message', 'Modification réussie !');
     }
 
     /**
@@ -88,6 +103,8 @@ class SocieteController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $entreprise = ModelsSociete::find($id);
+        $entreprise->delete;
+        return back();
     }
 }
