@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CentreController;
 use App\Http\Controllers\SocieteController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -25,3 +26,4 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 Route::get('/societe', [App\Http\Controllers\SocieteController::class, 'index'])->name('societe')->middleware('societe');
 Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin')->middleware('admin');
 Route::resource('gest-societe', SocieteController::class)->middleware('admin');
+Route::resource('gest-centre', CentreController::class)->middleware('admin');

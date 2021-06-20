@@ -3,7 +3,7 @@
 ***********************************-->
 <div class="deznav">
     <div class="deznav-scroll">
-        <a class="add-project-sidebar btn btn-primary" href="javascript:void(0)"  data-toggle="modal" data-target="#addProjectSidebar" >+ Nouvelle entreprise</a>
+        <a class="add-project-sidebar btn btn-primary" href="javascript:void(0)"  data-toggle="modal" data-target="#addProjectSidebar" >+ Nouveau centre</a>
         <ul class="metismenu" id="menu">
             <li><a class="" href="" aria-expanded="false">
                     <span class="nav-text">Tableau de bord</span>

@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Kartier;
+use App\Models\Centre;
 use Illuminate\Http\Request;
 
-
-class AdminController extends Controller
+class CentreController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +14,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        $secteurs = Kartier::all();
-        // dd($secteurs);
-        return view('backend.admin.index', compact('secteurs'));
+        //
     }
 
     /**
@@ -38,7 +35,15 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        request()->validate([
+            'nom' => 'required|string|max:30',
+            'description' => 'nullable',
+            'secteur_id' => 'nullable|integer',
+        ]);
+
+        $centre = Centre::create($request->all());
+        // dd($centre);
+        return back()->with("message", "Enregistré avec succès");
     }
 
     /**

@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Middleware\Societe;
+use App\Models\Centre;
+use App\Models\Kartier;
+use App\Models\Societe as ModelsSociete;
 use Illuminate\Http\Request;
 
 class SocieteController extends Controller
@@ -13,7 +17,8 @@ class SocieteController extends Controller
      */
     public function index()
     {
-        return view('backend.admin.entreprises.index');
+        $secteurs = Kartier::all();
+        return view('backend.admin.entreprises.index', compact('secteurs'));
     }
 
     /**
@@ -23,7 +28,10 @@ class SocieteController extends Controller
      */
     public function create()
     {
-        //
+        $centres = Centre::all();
+        $secteurs = Kartier::all();
+        // dd($centres);
+        return view('backend.admin.entreprises.create',compact('centres','secteurs'));
     }
 
     /**
@@ -34,7 +42,8 @@ class SocieteController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        ModelsSociete::create($request->all());
+        return back()->with("message", "Enregistré avec succès");
     }
 
     /**

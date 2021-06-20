@@ -30,6 +30,7 @@
             <div class="card">
                 <div class="card-header">
                     <h4 class="card-title">Profile Datatable</h4>
+                    <a class="text-right" href="{{ route('gest-societe.create') }}">Nouveau</a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
