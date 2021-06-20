@@ -3,10 +3,10 @@
 ***********************************-->
 <div class="deznav">
     <div class="deznav-scroll">
-        <a class="add-project-sidebar btn btn-primary" href="javascript:void(0)"  data-toggle="modal" data-target="#addProjectSidebar" >+ New Project</a>
+        <a class="add-project-sidebar btn btn-primary" href="javascript:void(0)"  data-toggle="modal" data-target="#addProjectSidebar" >+ Nouvelle entreprise</a>
         <ul class="metismenu" id="menu">
             <li><a class="" href="" aria-expanded="false">
-                    <span class="nav-text">Dashboard</span>
+                    <span class="nav-text">Tableau de bord</span>
                 </a>
             </li>
             <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
@@ -42,8 +42,8 @@
             </li>
         </ul>
         <div class="copyright">
-            <p><strong>Fasto Saas Admin Dashboard</strong> © 2021 All Rights Reserved</p>
-            <p class="fs-12">Made with <span class="heart"></span> by DexignZone</p>
+            <p><strong>OuagaSania</strong> © 2021 Tous droits reservés.</p>
+            <p class="fs-12">Fait avec <span class="heart"></span> par DexignZone</p>
         </div>
     </div>
 </div>

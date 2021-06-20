@@ -7,18 +7,10 @@
             <div class="collapse navbar-collapse justify-content-between">
                 <div class="header-left">
                     <div class="dashboard_bar">
-                        Dashboard
+                        Tableau de bord
                     </div>
                 </div>
                 <ul class="navbar-nav header-right">
-                    <li class="nav-item">
-                        <div class="input-group search-area d-lg-inline-flex d-none">
-                            <div class="input-group-append">
-                                <span class="input-group-text"><a href="javascript:void(0)"><i class="flaticon-381-search-2"></i></a></span>
-                            </div>
-                            <input type="text" class="form-control" placeholder="Search here...">
-                        </div>
-                    </li>
                     <li class="nav-item dropdown notification_dropdown">
                         <a class="nav-link bell bell-link" href="javascript:void(0)">
                             <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="../../www.w3.org/2000/svg.html">
