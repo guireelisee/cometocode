@@ -8,5 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Societe extends Model
 {
     use HasFactory;
+<<<<<<< HEAD
     protected $guarded = ['id'];
+=======
+    protected $guarted = ['id'];
+>>>>>>> admin
 }
